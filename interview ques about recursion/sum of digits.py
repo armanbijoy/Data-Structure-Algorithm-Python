@@ -4,4 +4,4 @@ def sumofDigits(n):
          return 0
      else:
         return int(n%10) + sumofDigits(int(n/10))
-print(sumofDigits(54))
+print(sumofDigits(112))
